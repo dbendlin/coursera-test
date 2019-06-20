@@ -3,19 +3,24 @@
   box-sizing: border-box;
   margin: 0px;
   padding: 0px;
+  font-family: Gill Sans Extrabold, sans-serif;
   /*margin-block-start: 0;
   margin-block-end: 0;*/
 }
 
 h1 {
-  margin-bottom: 15px;
+  margin-top: 20px;
+  margin-bottom: 25px;
+  font-size: 175%;
+  text-align: center;
 }
 
 div.section {
   background-color: #999999;
   margin: 10px;
-  padding: 15px;
   height: 200px;
+  border: 1px solid black;
+  overflow: auto;
 }
 
 h2.titulo {
@@ -24,15 +29,31 @@ h2.titulo {
   top: 0;
   right: 0;
   width: 120px;
-  background-color: red;
   text-align: center;
   padding: 3px;
+  border-left: 1px solid black;
+  border-bottom: 1px solid black;
+  font-size: 125%;
+}
+
+#t1 {
+  background-color: #d59897;
+}
+
+#t2 {
+  background-color: #c14543;
+  color: white;
+}
+
+#t3 {
+  background-color: #e5d197;
 }
 
 p.desc {
-  font-family: Helvetica;
   color: black;
   clear: both;
+  margin-top: 50px;
+  padding: 10px;
 }
 /* Simple Responsive Framework. */
 .row {
